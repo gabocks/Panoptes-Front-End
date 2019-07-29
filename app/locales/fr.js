@@ -7,7 +7,7 @@ export default {
     continue: 'Continue',
     detailsSubTaskFormSubmitButton: 'OK',
     done: 'Done',
-    doneAndTalk: 'Done & Talk',
+    doneAndTalk: 'Fini et en discuter',
     dontShowMinicourse: 'Do not show mini-course in the future',
     letsGo: 'Let’s go!',
     next: 'Next',
@@ -17,7 +17,7 @@ export default {
       tutorialTab: 'Tutorial'
     },
     recents: 'Your recent classifications',
-    talk: 'Talk',
+    talk: 'Forum',
     taskHelpButton: 'Need some help with this task?',
     miniCourseButton: 'Restart the project mini-course',
     workflowAssignmentDialog: {
@@ -256,8 +256,8 @@ export default {
       title: '## What is the Zooniverse?',
       whatIsZooniverse: 'The Zooniverse is the world’s largest and most popular platform for people-powered research. This research is made possible by volunteers — hundreds of thousands of people around the world who come together to assist professional researchers. Our goal is to enable research that would not be possible, or practical, otherwise. Zooniverse research results in new discoveries, datasets useful to the wider research community, and [many publications](/about/publications).',
       anyoneCanResearch: '### At the Zooniverse, anyone can be a researcher\n\nYou don’t need any specialised background, training, or expertise to participate in any Zooniverse projects. We make it easy for anyone to contribute to real academic research, on their own computer, at their own convenience.\n\nYou’ll be able to study authentic objects of interest gathered by researchers, like images of faraway galaxies, historical records and diaries, or videos of animals in their natural habitats. By answering simple questions about them, you’ll help contribute to our understanding of our world, our history, our Universe, and more.\n\nWith our wide-ranging and ever-expanding suite of projects, covering many disciplines and topics across the sciences and humanities, there\'s a place for anyone and everyone to explore, learn and have fun in the Zooniverse. To volunteer with us, just go to the [Projects](/projects) page, choose one you like the look of, and get started.',
-      accelerateResearch: '### We accelerate important research by working together\n\nThe major challenge of 21st century research is dealing with the flood of information we can now collect about the world around us. Computers can help, but in many fields the human ability for pattern recognition — and our ability to be surprised — makes us superior. With the help of Zooniverse volunteers, researchers can analyze their information more quickly and accurately than would otherwise be possible, saving time and resources, advancing the ability of computers to do the same tasks, and leading to faster progress and understanding of the world, getting to exciting results more quickly.\n\nOur projects combine contributions from many individual volunteers, relying on a version of the ‘wisdom of crowds’ to produce reliable and accurate data. By having many people look at the data we often can also estimate how likely we are to make an error. The product of a Zooniverse projects is often exactly what’s needed to make progress in many fields of research.',
-      discoveries: '### Volunteers and professionals make real discoveries together\n\nZooniverse projects are constructed with the aim of converting volunteers\' efforts into measurable results. These projects have produced a large number of [published research papers](/about/publications), as well as several open-source sets of analyzed data. In some cases, Zooniverse volunteers have even made completely unexpected and scientifically significant discoveries.\n\nA significant amount of this research takes place on the Zooniverse discussion boards, where volunteers can work together with each other and with the research teams. These boards are integrated with each project to allow for everything from quick hashtagging to in-depth collaborative analysis. There is also a central Zooniverse board for general chat and discussion about Zooniverse-wide matters.\n\nMany of the most interesting discoveries from Zooniverse projects have come from discussion between volunteers and researchers. We encourage all users to join the conversation on the discussion boards for more in-depth participation.'
+      accelerateResearch: '### Nous accélérons des recherches scientifiques importantes en travaillant ensemble\n\nLe plus grand défi pour la recherche scientifique au 21ème siècle est de traiter le flot d’information que nous pouvons récolter à propos du monde qui nous entoure. Les ordinateurs peuvent aider, mais dans de nombreux domaines la faculté humaine de reconnaitre des motifs – et notre faculté a été surpris – nous rend supérieurs. Avec l’aide des volontaires de Zooniverse, les chercheurs peuvent analyser les informations plus rapidement et avec une précision inégalée, ce qui permet de gagner du temps et des ressources, d’améliorer la capacité des ordinateurs à faire les même tâches, de favoriser le progrès et la compréhension du monde, et d’obtenir des résultats intéressant plus rapidement.\n\nNos projets combinent les contributions de nombreux volontaires en s’appuyant sur « la sagesse de la foule » pour produire des données plus fiables et plus précises. En augmentant le nombre de gens qui regardent les données, il est possible d’estimer la probabilité de faire une erreur. Le résultat d’un projet de Zooniverse est souvent exactement ce qu’il faut pour permettre à de nombreux domaine de recherche de faire des progrès.’,
+      discoveries: '### Les volontaires et les professionnels font de vrais découvertes ensemble\n\nLes projets de Zooniverse sont construits dans le but de convertir en résultat l\’effort incommensurable des volontaires. Ces projets ont déjà produits un certain nombre de [publications scientifiques](/à propos/publications), de même que de nombreux set de données open source. Dans certains cas, les volontaires de Zooniverse ont même fait des découvertes complètement inattendues et scientifiquement significatives.\n\nUne grande partie de cette recherche se passe dans le forum de Zooniverse, ou les volontaires peuvent travailler avec d’autres volontaire ou avec les équipes de chercheur. Chaque projet a son propre forum intégré qui permet non seulement l’utilisation facile de hashtags mais aussi des analyses collaboratives approfondies. Il y a aussi un forum Zooniverse central pour discuter des sujets qui ont trait à Zooniverse.\n\n La plupart des découvertes les plus intéressantes des projets de Zooniverse sont nées de discussions entre les volontaires et les chercheurs. Nous encourageons tous les utilisateurs de se joindre aux conversations sur les forums pour une participation plus en profondeur. '
     },
     publications: {
       nav: {
@@ -976,28 +976,28 @@ export default {
   },
   userSettings: {
     account: {
-      displayName: 'Display name (required)',
-      displayNameHelp: 'How your name will appear to other users in Talk and on your Profile Page',
-      realName: 'Real name (optional)',
-      realNameHelp: 'Public; we’ll use this to give acknowledgement in papers, on posters, etc.',
+      displayName: 'Nom de profil (obligatoire)',
+      displayNameHelp: 'Le nom qui apparaîtra dans le forum et dans votre profil',
+      realName: 'Nom réel (optionnel)',
+      realNameHelp: 'Publique; Nous utiliserons ce nom dans les remerciemements de publications scientifiques, de posters scientifiques, etc...',
       changePassword: {
-        heading: 'Change your password',
-        currentPassword: 'Current password (required)',
-        newPassword: 'New password (required)',
-        tooShort: 'That’s too short',
-        confirmNewPassword: 'Confirm new password (required)',
-        doesntMatch: 'These don’t match',
-        change: 'Change'
+        heading: 'Changer votre mot de passe',
+        currentPassword: 'Mot de passe actuel (obligatoire)',
+        newPassword: 'Nouveau mot de passe (obligatoire)',
+        tooShort: 'Ce mot de passe est trop court!',
+        confirmNewPassword: 'Confirmer le nouveau mot de passe (obligatoire)',
+        doesntMatch: 'Les mots de passe ne correspondent pas',
+        change: 'Changer'
       }
     },
     profile: {
-      dropImage: 'Drop an image here (or click to select).',
-      changeAvatar: 'Change avatar',
-      avatarImageHelp: 'Drop an image here (square, less than %(size)s KB)',
-      clearAvatar: 'Clear avatar',
-      changeProfileHeader: 'Change profile header',
-      profileHeaderImageHelp: 'Drop an image here (any dimensions, less than %(size)s KB)',
-      clearHeader: 'Clear header'
+      dropImage: 'Glissez une image ici (ou cliquez pour sélectionner).',
+      changeAvatar: 'Changer l\'avatar',
+      avatarImageHelp: 'Glissez une image ici (carrée, moins de %(size)s KB)',
+      clearAvatar: 'Retirer l\'avatar',
+      changeProfileHeader: 'Changer l\'entête du profil',
+      profileHeaderImageHelp: 'Glissez une image ici (toute dimension, moins de %(size)s KB)',
+      clearHeader: 'Retirer l\'entête'
     }
   }
 };
